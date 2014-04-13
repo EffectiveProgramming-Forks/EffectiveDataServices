@@ -10,7 +10,10 @@ Please reference the library directly until I've registered with CocoaPods.
 
 ```
 # Your Local Project's Podfile
-pod 'EffectiveDataServices', :git => 'https://github.com/EffectiveProgramming/EffectiveDataServices'
+
+pod 'EffectiveDataServices', :git => 'https://github.com/EffectiveProgramming/EffectiveDataServices', :tag => '0.0.1'
+# or without a tag identifer
+# pod 'EffectiveDataServices', :git => 'https://github.com/EffectiveProgramming/EffectiveDataServices'
 ```
 
 ## License
